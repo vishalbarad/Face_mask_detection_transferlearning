@@ -28,13 +28,11 @@ The purpose of this project is to detect whether person has wear mask or not.
 This is project based on transfer learning(Restnet152) CNN model. 
 Dataset used by this project is 'https://drive.google.com/drive/folders/1P3gIgFUMbdl5tSqx1pK385bz4t0mxEvW?usp=sharing'. Dataset conatins train, test and validation data in each there are two class 'with_mask' and 'without_mask'. After downloading and importing dataset(in Google colab) i used 'Resnet152' model to train my model.
 Resnet architecture.
-https://github.com/vishalbarad/Face_mask_detection_transferlearning/blob/master/The-basic-architecture-of-Resnet152.png
+<img src='https://github.com/vishalbarad/Face_mask_detection_transferlearning/blob/master/The-basic-architecture-of-Resnet152.png'>
 
 After that i just use 'model checkpoint' callback function to save best model as 'Face_mask_scratch.h5'.
 
-After that i just create CNN model as follow
-<img src="https://github.com/vishalbarad/Face_mask_detection/blob/master/cnn_scratch.png">
-(Face_mask_detection using transferlearning 'https://github.com/vishalbarad/Face_mask_detection_transferlearning')
+Face_mask_detection using transferlearning 'https://github.com/vishalbarad/Face_mask_detection_transferlearning')
 
 After that i just compile model using 'Adam' optimizer with learning rate=0.01, loss='categorical_crossentropy'.
 
@@ -46,7 +44,7 @@ After that i just fit data using 10 epochs.
 
 At the end i got 87% validation accuracy and 87% training accuracy.
 
-Then again i just saved model as 'Face_mask.h5' https://drive.google.com/file/d/1WdGiJbE3KJpEVA38I3aEK64DaN74gtIj/view?usp=sharing .
+Then again i just saved model as 'Face_mask.h5' (Model is >200mb so you can download from this link https://drive.google.com/file/d/1WdGiJbE3KJpEVA38I3aEK64DaN74gtIj/view?usp=sharing.)
 
 After downloading model i made 'prediction.ipynb' file using Opencv to predict output.
 
