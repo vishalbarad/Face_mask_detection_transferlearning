@@ -4,6 +4,21 @@ This project is a part of the CNN Deep learning using transfer learning(Resnet15
 
 #### -- Project Status: [Completed]
 
+### Screenshots:
+
+<p align="center">
+<img src="pic1.png" width="600" height="500" style="border: 1px solid black" />
+</p>
+<hr>
+<p align="center">
+<img src="pic2.png" width="600" height="500" style="border: 1px solid black" />
+</p>
+<hr>
+<p align="center">
+<img src="pic3.png" width="600" height="500" style="border: 1px solid black" />
+</p>
+<hr>
+
 ## Project Intro/Objective
 The purpose of this project is to detect whether person has wear mask or not.
 
