@@ -28,7 +28,7 @@ The purpose of this project is to detect whether person has wear mask or not.
 This is project based on transfer learning(Restnet152) CNN model. 
 Dataset used by this project is 'https://drive.google.com/drive/folders/1P3gIgFUMbdl5tSqx1pK385bz4t0mxEvW?usp=sharing'. Dataset conatins train, test and validation data in each there are two class 'with_mask' and 'without_mask'. After downloading and importing dataset(in Google colab) i used 'Resnet152' model to train my model.
 
-Resnet architecture.
+#### Resnet architecture.
 
 <img src='https://github.com/vishalbarad/Face_mask_detection_transferlearning/blob/master/The-basic-architecture-of-Resnet152.png'>
 
